@@ -45,7 +45,9 @@ h1 .subtitulo {
 /* TAREA 2.2: Selector Descendente
    Dentro de la sección destacada (.seccion-destacada), selecciona todos los elementos 
    de lista <li> y quítales los puntos (list-style: none). */
-
+.seccion-destacada li {
+   list-style: none;
+}
 
 /* -------------------------------------------------------
    3. SELECTORES DE RELACIÓN (HIJO DIRECTO)
