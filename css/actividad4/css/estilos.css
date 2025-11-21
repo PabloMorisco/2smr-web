@@ -1,13 +1,95 @@
-* {
-    box-sizing: border-boz;
-}
-
 body {
-    background-color: #ffc6f5;
-    width: 80%;
-    margin: 0 auto;
+    background: #f7fbbb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    text-align: center;
+    margin-bottom: 0;
+}
+header h1 {
+    color: #2417d9;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2.5em;
+    margin: .8em 0 .3em 0;
+}
+nav {
+    background: #fbc6df;
+    padding: .3em 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 28px;
+}
+nav li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #212491;
+    text-decoration: none;
+    font-weight: normal;
 }
 
-h1 {
-    
+#destacado {
+    border: 2px dashed gold;
+    background: #fffec5;
+    padding: .5em 1em;
+    margin: 1em;
+}
+
+.contenedor-cajas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2em 1em;
+}
+.caja {
+    background: #e8fdb3;
+    border: 2px solid #192769;
+    padding: 1.2em 1.5em;
+    flex: 1 1 340px;
+    min-width: 280px;
+    max-width: 410px;
+    box-sizing: border-box;
+}
+.caja h2 a, .caja h2 {
+    color: #257d14;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.caja ul {
+    margin: .5em 0;
+    padding-left: 20px;
+}
+.caja.info {
+    margin-right: 1em;
+}
+.caja.imagenes .imagen-texto {
+    margin-bottom: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.caja.imagenes img {
+    width: 80px;
+    border: 1px solid #aaa;
+    background: #fff;
+}
+footer {
+    padding: .9em 1em .5em 1em;
+    color: #292929;
+    font-size: 0.95em;
+    border-top: 1px solid #ddd;
+    background: #f7fbbb;
+}
+footer a {
+    color: #265e91;
+    text-decoration: underline;
 }
