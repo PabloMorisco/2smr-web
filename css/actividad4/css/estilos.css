@@ -1,37 +1,45 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background: #f7fbbb;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 header {
-    text-align: center;
     margin-bottom: 0;
 }
 header h1 {
     color: #2417d9;
+    text-align: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 2.5em;
     margin: .8em 0 .3em 0;
 }
 nav {
     background: #fbc6df;
-    padding: .3em 0;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding: 5px 0;
 }
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    gap: 28px;
+    overflow: hidden;
+    
 }
 nav li {
     display: inline-block;
 }
 nav ul li a {
+    float:left;
+    text-align: center;
     color: #212491;
     text-decoration: none;
     font-weight: normal;
+    padding: 14px;
 }
 
 #destacado {
@@ -70,6 +78,7 @@ nav ul li a {
 }
 .caja.info {
     margin-right: 1em;
+    color: green;
 }
 .caja.imagenes .imagen-texto {
     margin-bottom: 1.2em;
