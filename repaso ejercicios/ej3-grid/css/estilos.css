@@ -29,3 +29,6 @@ padding: 1rem;
     background-color: #f1f1f1;
     padding: 1rem;
 }
+.barra_lateral_der{
+    grid-area: aside
+}
